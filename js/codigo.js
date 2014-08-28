@@ -13,7 +13,7 @@ var tablero,
 /////////////////
 
 var fondo = {
-	imagenURL: "img/fondo/pueblo.png",
+	imagenURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/pueblo_zpsa16adaf3.png",
 	imagenOK: false
 };
 
@@ -22,13 +22,13 @@ var lovino = {
 	y: 224,
 	velocidad: 32,
 
-	arribaURL: "img/personaje/lovino-arriba-0.png",
+	arribaURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/lovino-arriba-0_zps3f314d7d.png",
 	arribaOK: false,
-	abajoURL: "img/personaje/lovino-abajo-0.png",
+	abajoURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/lovino-abajo-0_zps5e623dbf.png",
 	abajoOK: false,
-	izdaURL: "img/personaje/lovino-izda-0.png",
+	izdaURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/lovino-izda-0_zpsd82cc9cd.png",
 	izdaOK: false,
-	dchaURL: "img/personaje/lovino-dcha-0.png",
+	dchaURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/lovino-dcha-0_zpsef841ed8.png",
 	abajoOK: false,
 
 };
@@ -38,11 +38,11 @@ var antonio = {
 	y: 224,
 	velocidad: 32,
 
-	arribaURL: "img/personaje/antonio-arriba-0.png",
-	abajoURL: "img/personaje/antonio-abajo-0.png",
+	arribaURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/antonio-arriba-0_zpsd137433d.png",
+	abajoURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/antonio-abajo-0_zpsb27c2c2c.png",
 	abajoOK: false,
-	izdaURL: "img/personaje/antonio-izda-0.png",
-	dchaURL: "img/personaje/antonio-dcha-0.png",
+	izdaURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/antonio-izda-0_zpsfd9b8a14.png",
+	dchaURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/antonio-dcha-0_zpsf4499c9e.png",
 
 };
 
@@ -227,7 +227,7 @@ function pintarBurbuja () {
 }
 
 var cara = {
-	caraURL: "img/personaje/cara-antonio.png"
+	caraURL: "http://i40.photobucket.com/albums/e241/cursoslr/RPG%20intento%201/cara-antonio_zps1e2af00e.png"
 };
 function mostrarCara() {
 	tablero.drawImage(cara.imagen, 81, 305);
