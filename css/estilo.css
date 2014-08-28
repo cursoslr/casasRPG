@@ -1,0 +1,13 @@
+body {
+	background-color: black;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.instrucciones {
+	font-size: 16px;
+	font-family: Gulim !important;
+	font-weight: bold;
+	color: #FFFFFF;
+}
